@@ -32,8 +32,7 @@ int main()
         int *arr2;
         
         arr2 = game_with_number(arr, n);
-        for(int i = 0;i < n; i++)
-            cout << arr2[i] << " ";
+        //??
         
         cout << endl;
         
