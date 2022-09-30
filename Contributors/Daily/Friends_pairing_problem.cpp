@@ -18,9 +18,7 @@ class Solution
     	for (int i = 3; i <= n; i++)
     	{ 
     		// using modular arithmentic properties.
-    		c = ( b%m + ( ( (i - 1)%m  *  a%m )%m ) %m )%m ; 
-    		a = b; 
-    		b = c; 
+    		
     	} 
     	return c; 
     }
